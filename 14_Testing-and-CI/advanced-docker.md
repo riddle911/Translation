@@ -1,17 +1,22 @@
 # PX4 Docker Containers
 
 官网英文原文地址：[http://dev.px4.io/advanced-docker.html](http://dev.px4.io/advanced-docker.html)
+（可以简单将Docker理解为虚拟机的一种，使用Docker可以快速的对某种系统进行维护，包括生产环境的部署。更多Docker知识请Google之。——译者注）
+
+Docker容器包含了所有的PX4的开发工具链，以及Gazebo和ROS的仿真环境。
+目前有以下两种镜像：
 
 Docker containers are available that contain the complete PX4 development toolchain including Gazebo and ROS simulation:
 
-* **px4io/px4-dev**: toolchain including simulation
-* **px4io/px4-dev-ros**: toolchain including simulation and ROS \(incl. MAVROS\)
+* **px4io/px4-dev**: 包含了仿真系统的开发工具链
+* **px4io/px4-dev-ros**: 兼有ROS、仿真系统的开发工具链
 
-Pull one of the tagged images if you're after a container that just works, for instance\`px4io/px4-dev-ros:v1.0\`, the\`latest\`container is usually changing a lot.
+安装好Docker以后可以下载以上之一的镜像，目前可以选择`px4io/px4-dev-ros:v1.0这个镜像，而最新的容器经常会有变动。 latest\`container is usually changing a lot.
 
-Dockerfiles and README can be found here: [https://github.com/PX4/containers/tree/master/docker/px4-dev](https://github.com/PX4/containers/tree/master/docker/px4-dev)
 
-They are build automatically on Docker Hub: [https://hub.docker.com/u/px4io/](https://hub.docker.com/u/px4io/)
+有关Docker的文件和Readme可以查看这里， [https://github.com/PX4/containers/tree/master/docker/px4-dev](https://github.com/PX4/containers/tree/master/docker/px4-dev)
+
+包含完整PX4开发环境的Docker文件也可以在Docker的官网查看。 [https://hub.docker.com/u/px4io/](https://hub.docker.com/u/px4io/)
 
 ## Prerequisites
 
