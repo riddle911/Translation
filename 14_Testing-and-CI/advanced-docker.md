@@ -18,9 +18,9 @@ Docker containers are available that contain the complete PX4 development toolch
 
 包含完整PX4开发环境的Docker文件也可以在Docker的官网查看。 [https://hub.docker.com/u/px4io/](https://hub.docker.com/u/px4io/)
 
-## Prerequisites
+## 准备工作
 
-Install Docker from here [https://docs.docker.com/installation/](https://docs.docker.com/installation/), preferably use one of the Docker-maintained package repositories to get the latest version.
+从官网 [https://docs.docker.com/installation/](https://docs.docker.com/installation/) Docker, 为确保是最新版本可以选择下载由Docker官网维护的分支。
 
 Containers are currently only supported on Linux. If you don't have Linux you can run the container inside a virtual machine, see further down for more information. Do not use `boot2docker` with the default Linux image because it contains no X-Server.
 
